@@ -1,5 +1,5 @@
 cl_.exe : prog.cpp
-	cl /EHsc prog.cpp /Fe$@
+	cl /W4 /EHsc prog.cpp /Fe$@
 
 gcc_.exe : prog.cpp
-	gcc prog.cpp -o $@
+	g++ prog.cpp -o $@
