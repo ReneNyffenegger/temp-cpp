@@ -1,0 +1,5 @@
+struct obj {
+
+  int InLine();
+
+};
